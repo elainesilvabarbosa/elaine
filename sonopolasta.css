@@ -1,0 +1,128 @@
+@charset "UTF-8";
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6e6fa; /* Lilás claro */
+    margin: 0; /* Remove todas as margens */
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header, nav, main, footer {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin-left: auto; /* Centraliza na página */
+    margin-right: auto; /* Centraliza na página */
+}
+
+header {
+    background-color: #6a5acd; /* Lilás escuro */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+nav {
+    background-color: #483d8b; /* Roxo escuro */
+    border-radius: 8px;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block; /* Para centralizar os itens */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #6a5acd; /* Lilás escuro */
+}
+
+main {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles {
+    display: flex;
+    justify-content: center; /* Centraliza os artigos */
+    gap: 20px; /* Espaço entre os artigos */
+}
+
+section, article {
+    flex: 1;
+}
+
+article {
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+article h2 {
+    font-size: 1.5em;
+    color: #4b0082; /* Indígo */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e6e6fa;
+    padding-bottom: 10px;
+    text-align: center; /* Centraliza o texto */
+}
+
+article p {
+    color: #666;
+    text-align: justify; /* Melhor alinhamento para leitura */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #483d8b; /* Roxo escuro */
+    color: #fff;
+}
+
+footer a {
+    color: #b0c4de; /* Azul claro */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #dda0dd; /* Lilás escuro */
+    text-decoration: underline;
+}
+
+
+
+
+
